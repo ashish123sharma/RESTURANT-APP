@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#navbar{
+    display: flex;
+    background-color:aquamarine;
+   height:50px;
+    justify-content: space-evenly;
+}
+#options{
+    display:flex;
+    justify-content: space-evenly;
+    gap:40px;
+}
+#query{
+    /* display: flex; */
+ margin-top: 30px;
+ margin-left: 400px;
+ /* background-color: beige; */
+
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/9/2017/11/alabama-springhouse-coziest-restaurants-FT-SS1117.jpg");
+
+
+}
+#daily{
+    cursor: pointer;
+}
+#main{
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/9/2017/11/alabama-springhouse-coziest-restaurants-FT-SS1117.jpg");
+
+}
+
+</style>
+<body>
+    <div id="navbar"> </div>
+<div id="main">
+    <input type="text" id="query">
+    <button id="btn1" >Search</button>
+    <div id="container"></div>
+</div>
+   
+</body>
+</html>
+
+
+<script src="./Scripts/rec1.js" type="module"></script>
